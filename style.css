@@ -1,0 +1,100 @@
+h1,h2,p{
+font-family: Lato;
+}
+
+/* Начало верстки поисковой строки*/
+
+.searchString img{
+    background-color: #222222;
+}
+.searchString button{
+    background-color: rgba(255, 255, 255, 0);
+     border: none; outline: none;
+}
+.searchString{
+    display: grid;
+    grid-template-columns: 230px 1fr 1fr 240px ;
+    grid-template-rows: 1fr ;
+    max-width: 1600px;
+    min-height: 75px;
+    background-color: #222222;
+    justify-content: center;
+}
+.over{
+    grid-column-start: 3;
+    display: flex;
+    justify-content: end;
+    flex-basis:content;
+    align-items:center;
+}
+.Logo{
+    grid-column-start: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* встречающее фото*/
+
+.startBlockWithnameShop{
+    display: grid;
+    grid-template-columns:  800.58px 800.58px  ;
+    grid-template-rows: 764px ;
+}
+.meansPhoto img{
+width: 800.58px;
+height: 764px;
+top: 75px;
+gap: 0px;
+opacity: 0px;
+}
+.textstartBlockWithnameShop{
+width: 405px;
+height: 93.1px;
+top: 364.9px;
+left: 864px;
+gap: 0px;
+opacity: 0px;
+
+}
+.fashon{
+display: flex;
+justify-content: start;
+flex-wrap: nowrap;
+margin: 289.9px 331px 381px 63.42px;
+}
+
+
+.fashon main{
+    display: flex;
+font-family: Lato;
+font-size: 48px;
+font-weight: 900;
+line-height: 57.6px;
+text-align: left;
+color: #222222;
+flex-wrap: nowrap;
+}
+
+.fashon marker{
+    display: flex;
+    font-family: Lato;
+font-size: 32px;
+font-weight: 700;
+line-height: 38.4px;
+text-align: left;
+color: #222222;
+gap: 10px;
+}
+
+.fashon div{
+    display: flex;
+    font-family: Lato;
+font-size: 32px;
+font-weight: 700;
+line-height: 38.4px;
+text-align: left;
+color: #F16D7F;
+
+}
