@@ -198,3 +198,61 @@ left: 721.14px;
 gap: 0px;
 opacity: 0px;
 }
+/*Блок 4 карты с товарами*/
+.showcaseText h2{
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+.showcaseText p{
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #9F9F9F;
+    text-align: center;
+    margin: 6px auto 48px auto;
+}
+.showcaseSaleCard{
+    display: grid;
+    grid-template-columns: repeat(3, 360px) ;
+    grid-template-rows: repeat(2, 587px) ;
+    gap: 30px;
+}
+
+.showcaseCard img{
+    width: 360px;
+height: 420px;
+top: 2188px;
+left: 1010px;
+gap: 0px;
+opacity: 0px;
+}
+.showcaseCard h2{
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.6px;
+    text-align: left;  
+    gap: 25px;
+
+}
+.showcaseCard p{
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    text-align: left;   
+    gap: 18px;
+}
+.showcaseCard h3{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: #F16D7F;
+    gap: 20px;     
+}
