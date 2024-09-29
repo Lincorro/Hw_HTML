@@ -64,8 +64,6 @@ justify-content: start;
 flex-wrap: nowrap;
 margin: 289.9px 331px 381px 63.42px;
 }
-
-
 .fashon main{
     display: flex;
 font-family: Lato;
@@ -76,7 +74,6 @@ text-align: left;
 color: #222222;
 flex-wrap: nowrap;
 }
-
 .fashon marker{
     display: flex;
     font-family: Lato;
@@ -87,7 +84,6 @@ text-align: left;
 color: #222222;
 gap: 10px;
 }
-
 .fashon div{
     display: flex;
     font-family: Lato;
@@ -97,4 +93,108 @@ line-height: 38.4px;
 text-align: left;
 color: #F16D7F;
 
+}
+
+/*  блок №3 зона выбора */
+ .dres{
+    display: grid;
+    grid-template-columns: repeat(3, 360px) ;
+    grid-template-rows: 1fr ;
+    gap: 30px;
+    margin: 65px auto;
+ }
+.sectionSlace h2{
+    font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.2px;
+text-align: center;
+color: #FFFFFF;
+
+}
+.sectionSlace p{
+    font-family: Lato;
+font-size: 24px;
+font-weight: 700;
+line-height: 28.8px;
+text-align: center;
+color: #F16D7F;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+flex-direction: column;
+}
+.forWoman {
+    background-image: url(./img/for\ woman.png);
+width: 360px;
+height: 260px;
+top: 904px;
+left: 1010px;
+gap: 0px;
+opacity: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+flex-direction: column;
+}
+.ForMan{
+    background-image: url(./img/men.png);
+ width: 360px;
+height: 260px;
+top: 904px;
+left: 1010px;
+gap: 0px;
+opacity: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+flex-direction: column;
+}
+.ForKids{
+    background-image: url(./img/kid.png);
+width: 360px;
+height: 260px;
+top: 904px;
+left: 1010px;
+gap: 0px;
+opacity: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+flex-direction: column;
+}
+.accesoares{
+    display: grid;
+    background-image: url(./img/Accesories.png);
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 1138px;
+height: 180px;
+top: 1194px;
+left: 230px;
+gap: -0px;
+opacity: 0px;
+align-content: space-around;
+justify-content: center;
+margin: auto auto 96px auto;
+}
+.accesoares h2,p{
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+flex-direction: column;
+}
+.accesoaresTextBlok{
+    width: 159.72px;
+height: 50px;
+top: 1259px;
+left: 721.14px;
+gap: 0px;
+opacity: 0px;
 }
