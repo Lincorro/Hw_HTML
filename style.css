@@ -279,11 +279,9 @@ opacity: 0px;
 
 /*Блок с кнопкой*/
 .showcaseButton{
-    max-width: 212px;
-    max-height: 48px;
-    margin-left: auto;
-    margin: 48px auto 60px auto ;
-    justify-content: center;
+    display: flex;
+    justify-content:center;
+    margin: 48px 40% 50px 40%;
 }
 .showcaseButton button{
     width: 212px;
@@ -307,6 +305,7 @@ opacity: 0px;
 @media(min-width:768px) and (max-width: 1600px){
     .container{
         max-width: 768px;
+        max-height: 2976px;
     }
     .searchString{
         display: grid;
@@ -369,7 +368,15 @@ opacity: 0px;
         left: 16.36px;
         background-size: 734.58px 116.09px;
     }
-    
+    .showcaseSaleCard{
+        grid-template-columns: repeat(2, 360px) ;
+        grid-template-rows: repeat(3, 587px) ;
+        max-height: 1880px;
+    }
+    .showcaseButton{
+        max-width: 768px;
+        margin: 48px 40% 50px 40%;
+    }
 
 
 }
