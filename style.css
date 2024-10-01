@@ -1,6 +1,10 @@
 h1,h2,p{
 font-family: Lato;
 }
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
 
 /* Начало верстки поисковой строки*/
 
@@ -42,63 +46,62 @@ font-family: Lato;
 
 .startBlockWithnameShop{
     display: grid;
-    grid-template-columns:  800.58px 800.58px  ;
+    grid-template-columns:  1fr 1fr  ;
     grid-template-rows: 764px ;
     max-width: 100%;
     min-height: 764px;
     justify-content: center;
+    background-color: #F1E4E6;
 }
 .meansPhoto img{
-width: 800.58px;
-height: 764px;
+max-width: 800.58px;
+max-height: 764px;
 top: 75px;
 gap: 0px;
 opacity: 0px;
 }
 .textstartBlockWithnameShop{
-width: 405px;
-height: 93.1px;
-top: 364.9px;
-left: 864px;
-gap: 0px;
-opacity: 0px;
-
+    width: 764px;
+    height: 92px;
+    top: 212.48px;
+    left: 425px;
+    gap: 0px;
+    opacity: 0px;  
 }
 .fashon{
-display: flex;
-justify-content: start;
-flex-wrap: nowrap;
-margin: 289.9px 331px 381px 63.42px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 .fashon main{
     display: flex;
-font-family: Lato;
-font-size: 48px;
-font-weight: 900;
-line-height: 57.6px;
-text-align: left;
-color: #222222;
-flex-wrap: nowrap;
-}
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 57.6px;
+    text-align: left;
+    color: #222222;
+    flex-wrap: nowrap;
+    }
 .fashon marker{
     display: flex;
     font-family: Lato;
-font-size: 32px;
-font-weight: 700;
-line-height: 38.4px;
-text-align: left;
-color: #222222;
-gap: 10px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: left;
+    color: #222222;
+    gap: 10px;
 }
 .fashon div{
     display: flex;
     font-family: Lato;
-font-size: 32px;
-font-weight: 700;
-line-height: 38.4px;
-text-align: left;
-color: #F16D7F;
-
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: left;
+    color: #F16D7F;
 }
 
 /*  блок №3 зона выбора */
@@ -135,62 +138,62 @@ flex-wrap: wrap;
 flex-direction: column;
 }
 .forWoman {
-    background-image: url(./img/for\ woman.png);
-width: 360px;
-height: 260px;
-top: 904px;
-left: 1010px;
-gap: 0px;
-opacity: 0px;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-flex-direction: column;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ),url(./img/for\ woman.png);
+    width: 360px;
+    height: 260px;
+    top: 904px;
+    left: 1010px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 .ForMan{
-    background-image: url(./img/men.png);
- width: 360px;
-height: 260px;
-top: 904px;
-left: 1010px;
-gap: 0px;
-opacity: 0px;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-flex-direction: column;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url(./img/men.png) ;
+    width: 360px;
+    height: 260px;
+    top: 904px;
+    left: 1010px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 .ForKids{
-    background-image: url(./img/kid.png);
-width: 360px;
-height: 260px;
-top: 904px;
-left: 1010px;
-gap: 0px;
-opacity: 0px;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-flex-direction: column;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url(./img/kid.png);
+    width: 360px;
+    height: 260px;
+    top: 904px;
+    left: 1010px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 .accesoares{
     display: grid;
-    background-image: url(./img/Accesories.png);
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url(./img/Accesories.png);
     grid-row: 2;
     grid-column-start: 1;
     grid-column-end: 3;
     width: 1138px;
-height: 180px;
-top: 1194px;
-left: 230px;
-gap: -0px;
-opacity: 0px;
-align-content: space-around;
-justify-content: center;
-margin: auto auto 96px auto;
+    height: 180px;
+    top: 1194px;
+    left: 230px;
+    gap: -0px;
+    opacity: 0px;
+    align-content: space-around;
+    justify-content: center;
+    margin: auto auto 96px auto;
 }
 .accesoares h2,p{
     display: flex;
@@ -293,7 +296,6 @@ opacity: 0px;
     border-color:  #FF6A6A;
     background-color: transparent;
 }
-
 .showcaseButton h2{
     font-family: Lato;
     font-size: 16px;
@@ -302,3 +304,72 @@ opacity: 0px;
     color: #F26376 ;
 }
 
+@media(min-width:768px) and (max-width: 1600px){
+    .container{
+        max-width: 768px;
+    }
+    .searchString{
+        display: grid;
+        grid-template-columns: 32px 1fr 1fr 32px ;
+    }
+    .Logo{
+        justify-content: flex-start;
+    }
+    .over{
+        justify-content: end;
+    }
+    .meansPhoto img{
+        width: 386px;
+        height: 367.57px; 
+    }
+    .startBlockWithnameShop{
+        width: 769.57px;
+        min-height: 367.57px;
+        grid-template-columns:  389px 386px  ;
+        grid-template-rows: 386px ; 
+        justify-content: center;      
+    }
+    .textstartBlockWithnameShop{
+        font-family: Lato;
+        width: 311px;
+        height: 92px;
+        top: 212.48px;
+        left: 425px;
+        margin: 138px 33.57px 137px auto;     
+    }
+    .textstartBlockWithnameShop marker{
+        line-height: 28px;
+        size: 24px;
+        font-size: 20px;
+    }
+    .textstartBlockWithnameShop div{
+        line-height: 28px;
+        size: 24px;
+        font-size: 20px;
+    }
+    .textstartBlockWithnameShop main{
+        font-size: 44px;
+        line-height: 52.8px;
+    }
+    .dres{
+        grid-template-columns: repeat(3, 232px) ;
+        gap: 19.9px;
+    }
+    .ForMan, .forWoman, .ForKids{
+        width: 231.97px;
+        height: 167.62px;
+        top: 507px;
+        left: 16.36px;
+        background-size: 232px 167.6px;
+    }
+    .accesoares{
+        width: 734.58px;
+        height: 116.09px;
+        top: 693.96px;
+        left: 16.36px;
+        background-size: 734.58px 116.09px;
+    }
+    
+
+
+}
