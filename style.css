@@ -302,6 +302,7 @@ opacity: 0px;
     color: #F26376 ;
 }
 
+/*Для планшета*/
 @media(min-width:768px) and (max-width: 1600px){
     .container{
         max-width: 768px;
@@ -377,6 +378,90 @@ opacity: 0px;
         max-width: 768px;
         margin: 48px 40% 50px 40%;
     }
+}
 
-
+/*для телефона*/
+@media(min-width:375px) and (max-width: 760px){
+    .container{
+        max-width: 375px;
+        max-height: 2976px;
+    }
+    .profile{
+        display: none;
+    }
+    .cart{
+        display: none;
+    }
+    .searchString{
+        display: grid;
+        grid-template-columns: 16px 1fr 1fr 16px ;
+    }
+    .Logo{
+        justify-content: flex-start;
+    }
+    .over{
+        justify-content: end;
+    }
+    .meansPhoto img{
+        display: none;
+    }
+    .fashon{
+        width: 263px;
+        height: 66px;
+        margin: 148px 56px 149px 56px; 
+    }
+    .startBlockWithnameShop{
+        min-height: 363px;
+        grid-template-rows: 363px;
+    }
+    .textstartBlockWithnameShop{
+        font-family: Lato;
+        width: 311px;
+        height: 92px;
+        top: 212.48px;
+        left: 425px;
+    
+    }
+    .textstartBlockWithnameShop marker{
+        line-height: 28px;
+        size: 24px;
+        font-size: 20px;
+    }
+    .textstartBlockWithnameShop div{
+        line-height: 28px;
+        size: 24px;
+        font-size: 20px;
+    }
+    .textstartBlockWithnameShop main{
+        font-size: 44px;
+        line-height: 52.8px;
+    }
+    .dres{
+        grid-template-columns: 343px ;
+        grid-template-rows: 4fr ;
+        gap: 32px;
+        margin: 64px 16px auto 16px;
+    }
+    .ForMan, .forWoman, .ForKids{
+        width: 343px;
+        height: 247px;
+        background-size: 343px 247px;
+    }
+    .accesoares{
+        width: 343.26px;
+        height: 111px;
+        grid-row: 4;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        background-size: 343.26px 111px;
+    }
+    .showcaseSaleCard{
+        grid-template-columns: 360px ;
+        grid-template-rows: repeat(6, 587px) ;
+        max-height: 1880px;
+    }
+    .showcaseButton{
+        max-width: 375px;
+        margin: 48px 40% 50px 40%;
+    }
 }
