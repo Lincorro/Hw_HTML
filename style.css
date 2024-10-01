@@ -83,7 +83,7 @@ opacity: 0px;
     text-align: left;
     color: #222222;
     flex-wrap: nowrap;
-    }
+}
 .fashon marker{
     display: flex;
     font-family: Lato;
@@ -306,7 +306,7 @@ opacity: 0px;
 @media(min-width:768px) and (max-width: 1600px){
     .container{
         max-width: 768px;
-        max-height: 2976px;
+        max-height: 100%;
     }
     .searchString{
         display: grid;
@@ -382,9 +382,10 @@ opacity: 0px;
 
 /*для телефона*/
 @media(min-width:375px) and (max-width: 760px){
+
     .container{
         max-width: 375px;
-        max-height: 2976px;
+        max-height: 100%;
     }
     .profile{
         display: none;
@@ -458,10 +459,9 @@ opacity: 0px;
     .showcaseSaleCard{
         grid-template-columns: 360px ;
         grid-template-rows: repeat(6, 587px) ;
-        max-height: 1880px;
+        max-height: 5600px;
     }
     .showcaseButton{
-        max-width: 375px;
-        margin: 48px 40% 50px 40%;
+        margin: 20px 0;
     }
 }
