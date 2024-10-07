@@ -11,6 +11,12 @@ font-family: Lato;
 .searchString img{
     background-color: #222222;
 }
+
+.topButton input{
+    position: absolute;
+    visibility: hidden;
+    left: -99999999px;
+}
 .searchString button{
     border: medium none;
     background-image: none; 
@@ -18,6 +24,10 @@ font-family: Lato;
     float: left;
     background-color: transparent;
 }
+.icon:hover path{
+    fill: #F16D7F
+}
+
 .searchString{
     display: grid;
     grid-template-columns: 230px 1fr 1fr 240px ;
@@ -33,6 +43,7 @@ font-family: Lato;
     justify-content: end;
     flex-basis:content;
     align-items:center;
+    gap: 10px;
 }
 .Logo{
     grid-column-start: 2;
@@ -40,6 +51,7 @@ font-family: Lato;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 /* встречающее фото*/
@@ -213,7 +225,6 @@ opacity: 0px;
 /*Блок 4 карты с товарами*/
 .textIntoCard{
     margin: 24.3px 28.8px 20px 16.4px ;
-
 }
 .showcaseText h2{
     font-family: Lato;
@@ -244,6 +255,7 @@ opacity: 0px;
 
 }
 .showcaseCard img{
+ 
     width: 360px;
     height: 420px;
     top: 2188px;
@@ -251,6 +263,25 @@ opacity: 0px;
     gap: 0px;
     opacity: 0px;
 }
+.bacgroundCard{
+    background-color: black;
+    width: 360px;
+    height: 420px;
+    top: 2188px;
+    left: 1010px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.image-filter{
+    transition: all 1s;
+}
+.image-filter:hover {
+    opacity: 0.6;
+    transition: opacity 1;
+}
+
 .textIntoCard h2{
     font-family: Lato;
     font-size: 13px;
@@ -282,8 +313,6 @@ opacity: 0px;
     display: flex;
     justify-content:center;
     margin: 48px 40% 50px 40%;
-}
-.showcaseButton button{
     width: 212px;
     height: 48px;
     top: 2817px;
@@ -293,6 +322,8 @@ opacity: 0px;
     opacity: 0px;
     border-color:  #FF6A6A;
     background-color: transparent;
+    background: transparent;
+    align-items: center;
 }
 .showcaseButton h2{
     font-family: Lato;
@@ -300,6 +331,8 @@ opacity: 0px;
     font-weight: 400;
     line-height: 19.2px;
     color: #F26376 ;
+    display: flex;
+    justify-content:center;
 }
 
 /*Для планшета*/
