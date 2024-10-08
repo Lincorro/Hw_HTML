@@ -252,7 +252,6 @@ opacity: 0px;
     max-width: 100%;
     max-height: 1550px;
     justify-content: center;
-
 }
 .showcaseCard img{
  
@@ -271,15 +270,44 @@ opacity: 0px;
     left: 1010px;
     gap: 0px;
     opacity: 0px;
-
 }
 
 .image-filter{
     transition: all 1s;
 }
-.image-filter:hover {
-    opacity: 0.6;
+.showcaseCard:hover img{
+    opacity: 0.4;
     transition: opacity 1;
+    position: inherit;
+}
+.showcaseCard:hover button{
+    visibility: visible
+}
+
+.howcaseSaleCard__ButtonintoCard{
+    width: 139px;
+    height: 44px;
+    border: 1px 0px 0px 0px;
+    border-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: transparent;
+    background: transparent;
+    visibility: hidden;
+}
+.howcaseSaleCard__ButtonintoCard h2{
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+.bacgroundCard button{
+    margin: 180px 110px;
 }
 
 .textIntoCard h2{
@@ -495,6 +523,6 @@ opacity: 0px;
         max-height: 5600px;
     }
     .showcaseButton{
-        margin: 20px 0;
+        margin: 20px auto;
     }
 }
