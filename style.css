@@ -66,11 +66,11 @@ font-family: Lato;
     background-color: #F1E4E6;
 }
 .meansPhoto img{
-max-width: 800.58px;
-max-height: 764px;
-top: 75px;
-gap: 0px;
-opacity: 0px;
+    max-width: 800.58px;
+    max-height: 764px;
+    top: 75px;
+    gap: 0px;
+    opacity: 0px;
 }
 .textstartBlockWithnameShop{
     width: 764px;
@@ -117,7 +117,7 @@ opacity: 0px;
 }
 
 /*  блок №3 зона выбора */
- .dres{
+.dres{
     display: grid;
     grid-template-columns: repeat(3, 360px) ;
     grid-template-rows: 1fr ;
@@ -340,14 +340,9 @@ opacity: 0px;
 .showcaseButton{
     display: flex;
     justify-content:center;
-    margin: 48px 40% 50px 40%;
+    margin: 50px auto 50px auto;
     width: 212px;
-    height: 48px;
-    top: 2817px;
-    left: 695px;
-    gap: 0px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
+    height: 50px;
     border-color:  #FF6A6A;
     background-color: transparent;
     background: transparent;
@@ -362,6 +357,140 @@ opacity: 0px;
     display: flex;
     justify-content:center;
 }
+
+/* добавленно с 9 дз */
+.footer__blokWith3Image{
+    height: 341px;
+    background-color:#222224;
+    display: grid;
+    grid-template-columns: repeat(3, 360px) ;
+    grid-template-rows: 1fr;
+    gap: 30px;
+    justify-content: center;
+}
+.blokWith3Image__image{
+    margin: 103px auto;
+    width: 360px;
+    height: 134px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer__blokWith3Image h2{
+    font-family: Lato;
+    font-size: 19.96px;
+    font-weight: 400;
+    line-height: 23.95px;
+    text-align: left;
+    color: #FBFBFB;
+    margin: 25px 0 0 0;
+}
+.footer__blokWith3Image p{
+    font-family: Lato;
+    font-size: 13.97px;
+    font-weight: 400;
+    line-height: 16.77px;
+    text-align: center;
+    color: #FBFBFB;
+    margin: 16px 0 0 0;
+}
+.footer__BlokWithSubscribe{
+    width: 1600px;
+    height: 448px;
+    height: 448px;
+    background-image: linear-gradient( rgba(244, 244, 244, 0.7)
+    , rgba(244, 244, 244, 0.7) ), url(./img/Layer\ 41.png);
+}
+.BlokWithSubscribe__SubscribeInfo img{
+    width:96px;
+    height:96px;
+    position: absolute;
+    clip-path: circle(40%);
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+}
+.BlokWithSubscribe__SubscribeInfo__img{
+    width: 96px;
+    height: 96px;
+    top: 97px;
+    left: 352px;
+    gap: 0px;
+    opacity: 0px;
+}
+.footer__footer{
+    height: 79px;
+    background-color: #222224;
+}
+.footer__BlokWithSubscribe{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    justify-items: center
+}
+.BlokWithSubscribe__SubscribeInfo{
+    width: 359.45px;
+    height: 225px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 97px auto 123px auto;
+}
+.footer__text{
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+.BlokWithSubscribe__Subscribe{
+    width: 557px;
+    height: 142px;
+    margin: 150px auto;
+    justify-content: center;
+}
+.BlokWithSubscribe__Subscribe h2{
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;    
+}
+.BlokWithSubscribe__Subscribe p{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.1px;
+    text-align: center;  
+}
+
+.BlokWithSubscribe__Subscribe div{
+    width: 360px;
+    height: 50px;
+    margin: 30px 100px 0 100px;
+}
+.BlokWithSubscribe__Subscribe input{
+    background-color: #E1E1E1;
+    width: 256px;
+    height: 49px;
+    top: 243px;
+    left: 917px;
+    border: none;
+    border-radius: 25px 1px 1px 25px;
+}
+.BlokWithSubscribe__Subscribe button{
+    background-color: #F16D7F;
+    width: 100px;
+    height: 49px;
+    top: 243px;
+    left: 1173px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 1px 25px 25px 1px;
+}
+
 
 /*Для планшета*/
 @media(min-width:768px) and (max-width: 1600px){
