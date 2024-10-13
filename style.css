@@ -465,7 +465,6 @@ opacity: 0px;
     line-height: 30.1px;
     text-align: center;  
 }
-
 .BlokWithSubscribe__Subscribe div{
     width: 360px;
     height: 50px;
@@ -490,7 +489,37 @@ opacity: 0px;
     border: none;
     border-radius: 1px 25px 25px 1px;
 }
-
+.footer__footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr;
+}
+.footer__footer button{
+    width: 31.45px;
+    height: 32px;
+    top: 3773px;
+    left: 1222px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+}
+.footer__footer h2{
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer__footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__footer_button:hover {
+    background-color: #F16D7F;
+}
+.footer__footer_button:hover path {
+    fill: #FFFFFF;
+}
 
 /*Для планшета*/
 @media(min-width:768px) and (max-width: 1600px){
@@ -567,6 +596,33 @@ opacity: 0px;
     .showcaseButton{
         max-width: 768px;
         margin: 48px 40% 50px 40%;
+    }
+
+    .footer__BlokWithSubscribe{
+        width: 768px;
+        display: grid;
+        grid-template-columns: 1fr  ;
+        grid-template-rows: 225px 137px;
+    }
+    .BlokWithSubscribe__SubscribeInfo{
+        margin: auto;
+    }
+    .BlokWithSubscribe__Subscribe{
+        margin: auto;
+    }
+
+    .footer__blokWith3Image{
+        width: 768px;
+        height: 610px;
+        background-color:#222224;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: repeat(3, 133px);
+    }
+    .blokWith3Image__image{
+        margin: 50px auto;
+        width: 360px;
+        height: 133px;
     }
 }
 
@@ -653,5 +709,38 @@ opacity: 0px;
     }
     .showcaseButton{
         margin: 20px auto;
+    }
+
+    .footer__BlokWithSubscribe{
+        width: 375px;
+        display: grid;
+        grid-template-columns: 1fr  ;
+        grid-template-rows: 225px 137px;
+    }
+    .BlokWithSubscribe__SubscribeInfo{
+        margin: auto;
+    }
+    .BlokWithSubscribe__Subscribe{
+        margin: auto;
+    }
+
+    .footer__blokWith3Image{
+        width: 375px;
+        height: 610px;
+        background-color:#222224;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: repeat(3, 130px);
+    }
+    .blokWith3Image__image{
+        margin: 50px auto;
+        width: 360px;
+        height: 133px;
+    }
+    .footer__footer{
+        grid-template-columns: 1fr ;
+        grid-template-rows: repeat(2, 1fr);
+        width: 375px;
+        height: 143px;
     }
 }
