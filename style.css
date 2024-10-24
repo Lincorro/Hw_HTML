@@ -70,15 +70,13 @@ font-family: Lato;
     max-height: 764px;
     top: 75px;
     gap: 0px;
-    opacity: 0px;
 }
 .textstartBlockWithnameShop{
     width: 764px;
     height: 92px;
     top: 212.48px;
     left: 425px;
-    gap: 0px;
-    opacity: 0px;  
+    gap: 0px;  
 }
 .fashon{
     display: flex;
@@ -156,7 +154,6 @@ flex-direction: column;
     top: 904px;
     left: 1010px;
     gap: 0px;
-    opacity: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,7 +167,6 @@ flex-direction: column;
     top: 904px;
     left: 1010px;
     gap: 0px;
-    opacity: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,7 +180,6 @@ flex-direction: column;
     top: 904px;
     left: 1010px;
     gap: 0px;
-    opacity: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,7 +197,6 @@ flex-direction: column;
     top: 1194px;
     left: 230px;
     gap: -0px;
-    opacity: 0px;
     align-content: space-around;
     justify-content: center;
     margin: auto auto 96px auto;
@@ -220,7 +214,6 @@ height: 50px;
 top: 1259px;
 left: 721.14px;
 gap: 0px;
-opacity: 0px;
 }
 /*Блок 4 карты с товарами*/
 .textIntoCard{
@@ -254,13 +247,11 @@ opacity: 0px;
     justify-content: center;
 }
 .showcaseCard img{
- 
     width: 360px;
     height: 420px;
     top: 2188px;
     left: 1010px;
     gap: 0px;
-    opacity: 0px;
 }
 .bacgroundCard{
     background-color: black;
@@ -269,7 +260,6 @@ opacity: 0px;
     top: 2188px;
     left: 1010px;
     gap: 0px;
-    opacity: 0px;
 }
 
 .image-filter{
@@ -277,7 +267,6 @@ opacity: 0px;
 }
 .showcaseCard:hover img{
     opacity: 0.4;
-    transition: opacity 1;
     position: inherit;
 }
 .showcaseCard:hover button{
@@ -287,7 +276,7 @@ opacity: 0px;
 .howcaseSaleCard__ButtonintoCard{
     width: 139px;
     height: 44px;
-    border: 1px 0px 0px 0px;
+    border: 2px 2px;
     border-color: #FFFFFF;
     display: flex;
     align-items: center;
@@ -417,7 +406,6 @@ opacity: 0px;
     top: 97px;
     left: 352px;
     gap: 0px;
-    opacity: 0px;
 }
 .footer__footer{
     height: 79px;
@@ -500,7 +488,6 @@ opacity: 0px;
     top: 3773px;
     left: 1222px;
     gap: 0px;
-    opacity: 0px;
     background-color: #FFFFFF;
 }
 .footer__footer h2{
@@ -558,17 +545,11 @@ opacity: 0px;
     }
     .textstartBlockWithnameShop marker{
         line-height: 28px;
-        size: 24px;
         font-size: 20px;
     }
     .textstartBlockWithnameShop div{
         line-height: 28px;
-        size: 24px;
         font-size: 20px;
-    }
-    .textstartBlockWithnameShop main{
-        font-size: 44px;
-        line-height: 52.8px;
     }
     .dres{
         grid-template-columns: repeat(3, 232px) ;
@@ -671,12 +652,10 @@ opacity: 0px;
     }
     .textstartBlockWithnameShop marker{
         line-height: 28px;
-        size: 24px;
         font-size: 20px;
     }
     .textstartBlockWithnameShop div{
         line-height: 28px;
-        size: 24px;
         font-size: 20px;
     }
     .textstartBlockWithnameShop main{
